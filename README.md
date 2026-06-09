@@ -1,30 +1,11 @@
-````markdown
 # 🚀 DevPilot AI: AI-Powered Software Engineering Assistant
 
 <p align="center">
-  <img src="Assets/devpilot-banner.png" alt="DevPilot AI Banner" width="100%">
+  <img src="Assets/devpilot-banner.png" alt="DevPilot AI" width="900">
 </p>
 
 <p align="center">
-  <a href="https://github.com/anup-sys">
-    <img src="https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github">
-  </a>
-
-  <img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python">
-
-  <img src="https://img.shields.io/badge/FastAPI-Backend-green?style=for-the-badge&logo=fastapi">
-
-  <img src="https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react">
-
-  <img src="https://img.shields.io/badge/PostgreSQL-Database-blue?style=for-the-badge&logo=postgresql">
-
-  <img src="https://img.shields.io/badge/Docker-Containerization-2496ED?style=for-the-badge&logo=docker">
-
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge">
-</p>
-
-<p align="center">
-  <strong>An Intelligent AI Platform for Coding, Resume Analysis, Interview Preparation, and Career Growth.</strong>
+  <strong>An Intelligent AI Platform for Coding, Resume Analysis, Interview Preparation, and Software Engineering Productivity.</strong>
 </p>
 
 <p align="center">
@@ -35,110 +16,114 @@
 
 # 📖 About
 
-DevPilot AI is an AI-powered Software Engineering Assistant that helps developers and students accelerate their learning journey.
+DevPilot AI is an AI-powered Software Engineering Assistant that helps developers and students accelerate their learning and career growth.
 
-The platform leverages:
+The platform combines **Large Language Models (LLMs)**, **Machine Learning**, and **Modern Backend Technologies** to provide intelligent assistance for coding, resume analysis, interview preparation, and personalized learning.
 
-- 🤖 Large Language Models (LLMs)
-- 🧠 Machine Learning
-- 💻 Modern Backend Engineering
-- 📊 Data Analytics
-- 🚀 AI-powered Career Guidance
+Whether you are preparing for:
+
+* 💼 SDE Internships
+* 🏢 Product-Based Companies
+* 🤖 AI/ML Roles
+* 🌐 Backend Engineering
+* 📊 Software Development Careers
+
+DevPilot AI is your personal AI engineering companion.
 
 ---
 
 # ✨ Features
 
-<table>
-<tr>
-<td width="50%">
-
 ## 📝 AI Resume Analyzer
 
-- ATS Score
-- Resume Parsing
-- Skill Gap Analysis
-- Resume Suggestions
-- Company-wise Optimization
-
-</td>
-
-<td width="50%">
-
-## 💻 AI Code Review
-
-- Bug Detection
-- Code Quality Analysis
-- Security Checks
-- Best Practices
-- Performance Optimization
-
-</td>
-</tr>
-
-<tr>
-<td>
-
-## 🎯 AI Interview Assistant
-
-- AI Mock Interviews
-- DSA Assessment
-- Company-wise Questions
-- Coding Feedback
-
-</td>
-
-<td>
-
-## 🛣 Learning Roadmap
-
-- AI Study Planner
-- Personalized Roadmaps
-- Daily Goals
-- Career Guidance
-
-</td>
-</tr>
-
-</table>
+* ATS Score Analysis
+* Resume Parsing
+* Skill Gap Detection
+* Resume Improvement Suggestions
+* Company-wise Resume Optimization
 
 ---
 
-# 🏗️ System Architecture
+## 💻 AI Code Review
 
-<p align="center">
+* Bug Detection
+* Code Quality Analysis
+* Complexity Analysis
+* Security Recommendations
+* Best Coding Practices
+
+---
+
+## 🎯 AI Coding Interview Assistant
+
+* AI Mock Interviews
+* Company-wise Question Prediction
+* Coding Feedback
+* Interview Performance Report
+* Personalized Improvement Plan
+
+---
+
+## 📚 DSA Skill Assessment
+
+* Topic-wise Analysis
+* Strength & Weakness Detection
+* AI-based Practice Recommendations
+* Progress Tracking
+
+---
+
+## 🛣 Personalized Learning Roadmap
+
+* AI-generated Study Plan
+* Beginner to Advanced Roadmaps
+* Daily Learning Tasks
+* Career Guidance
+
+---
+
+## 🤖 AI Chat Assistant
+
+* Programming Help
+* Debugging Support
+* System Design Guidance
+* API Development Help
+* Backend Engineering Support
+
+---
+
+# 🏗 System Architecture
 
 ```text
-                +------------------+
-                | React Frontend   |
-                +---------+--------+
+                +-------------------+
+                |   React Frontend  |
+                +---------+---------+
                           |
                           |
-                +---------v--------+
-                |     FastAPI      |
-                +---------+--------+
+                +---------v---------+
+                |     FastAPI       |
+                |      Backend      |
+                +---------+---------+
                           |
           +---------------+---------------+
           |                               |
 +---------v---------+          +----------v----------+
-|   AI Engine       |          |   PostgreSQL        |
+|    AI Engine      |          |    PostgreSQL       |
 | (LLMs + ML Models)|          |      Database       |
 +---------+---------+          +----------+----------+
           |                               |
           +---------------+---------------+
                           |
-                +---------v--------+
-                | External APIs    |
-                +------------------+
-````
-
-</p>
+                +---------v---------+
+                | External AI APIs  |
+                +-------------------+
+```
 
 ---
 
-# 🛠️ Tech Stack
+# 🛠 Tech Stack
 
-## 💻 Languages
+## Programming Languages
 
 * Python
 * Java
@@ -147,7 +132,7 @@ The platform leverages:
 
 ---
 
-## 🌐 Frontend
+## Frontend
 
 * React.js
 * HTML5
@@ -156,7 +141,7 @@ The platform leverages:
 
 ---
 
-## ⚙️ Backend
+## Backend
 
 * FastAPI
 * REST APIs
@@ -164,23 +149,23 @@ The platform leverages:
 
 ---
 
-## 🤖 Artificial Intelligence
+## Artificial Intelligence
 
-* Large Language Models
+* Large Language Models (LLMs)
 * Machine Learning
-* NLP
+* Natural Language Processing
 * Scikit-Learn
 * LangChain
 
 ---
 
-## 🗄️ Database
+## Database
 
 * PostgreSQL
 
 ---
 
-## 🐳 DevOps
+## DevOps
 
 * Docker
 * Git
@@ -193,8 +178,9 @@ The platform leverages:
 ```text
 DevPilot-AI/
 │
+├── README.md
 ├── Assets/
-│   ├── devpilot-banner.png
+│   └── devpilot-banner.png
 │
 ├── frontend/
 │
@@ -214,35 +200,81 @@ DevPilot-AI/
 │
 ├── requirements.txt
 │
-└── README.md
+└── .env.example
 ```
 
 ---
 
 # 🚀 Core Modules
 
-| Module              | Description                |
-| ------------------- | -------------------------- |
-| Resume Analyzer     | ATS Score & Resume Parsing |
-| Code Review         | AI-based Code Analysis     |
-| Interview Assistant | AI Mock Interviews         |
-| DSA Assessment      | Skill Evaluation           |
-| Learning Roadmap    | Personalized Study Plan    |
+## Resume Intelligence
+
+* Resume Parsing
+* ATS Score
+* Resume Ranking
+* Candidate Evaluation
 
 ---
 
-# 📈 Future Enhancements
+## Coding Assistant
+
+* Code Analysis
+* AI Suggestions
+* Debugging
+* Performance Optimization
+
+---
+
+## Interview Preparation
+
+* Mock Interviews
+* Coding Challenges
+* DSA Assessment
+* Company-specific Preparation
+
+---
+
+## Learning Platform
+
+* AI Learning Roadmaps
+* Daily Challenges
+* Personalized Recommendations
+
+---
+
+# 📚 AI Technologies
+
+* Machine Learning
+* Natural Language Processing
+* Generative AI
+* Recommendation Systems
+* Intelligent Search
+
+---
+
+# 🎯 Use Cases
+
+* Resume Screening
+* Coding Interview Preparation
+* AI Code Review
+* Skill Assessment
+* Learning Guidance
+* Career Planning
+
+---
+
+# 🚀 Future Enhancements
 
 * GitHub Repository Analyzer
 * AI Pair Programming
-* AI Career Mentor
 * AI System Design Interview
-* Voice Assistant
+* Multi-language Code Support
+* Voice-based AI Assistant
 * Competitive Programming Coach
 
 ---
 
-# 🛠️ Installation
+# 🛠 Installation
 
 ## Clone Repository
 
@@ -252,6 +284,8 @@ git clone https://github.com/anup-sys/DevPilot-AI.git
 cd DevPilot-AI
 ```
 
+---
+
 ## Backend
 
 ```bash
@@ -259,6 +293,8 @@ pip install -r requirements.txt
 
 uvicorn main:app --reload
 ```
+
+---
 
 ## Frontend
 
@@ -270,7 +306,7 @@ npm start
 
 ---
 
-# ⚙️ Environment Variables
+# ⚙ Environment Variables
 
 ```env
 OPENAI_API_KEY=your_api_key
@@ -282,41 +318,83 @@ SECRET_KEY=your_secret_key
 
 ---
 
+# 📈 Project Roadmap
+
+## Phase 1
+
+* Resume Analysis
+* ATS Score
+* Code Review
+
+---
+
+## Phase 2
+
+* AI Interview Assistant
+* DSA Skill Assessment
+
+---
+
+## Phase 3
+
+* Learning Roadmap
+* AI Career Mentor
+
+---
+
+## Phase 4
+
+* GitHub Analyzer
+* AI Pair Programmer
+
+---
+
 # 🤝 Contributing
 
 Contributions are welcome!
 
+1. Fork this repository
+
+2. Create a feature branch
+
 ```bash
 git checkout -b feature-name
+```
 
+3. Commit changes
+
+```bash
 git commit -m "Added new feature"
+```
 
+4. Push to GitHub
+
+```bash
 git push origin feature-name
 ```
 
-Create a Pull Request 🚀
+5. Open a Pull Request
 
 ---
 
 # ⭐ Support
 
-If this repository helps you, please give it a ⭐
+If this project helps you, please consider giving it a ⭐.
 
-It motivates me to create more open-source AI projects.
+It motivates me to build more AI-powered developer tools for the community.
 
 ---
 
 # 📜 License
 
-MIT License
+This project is licensed under the MIT License.
 
 ---
 
-<h2 align="center">
-🚀 Build Better Software • Learn Faster • Get Hired 🤖
-</h2>
+<p align="center">
+<b>🚀 Build Better Software • Learn Faster • Crack Interviews • Get Hired 🤖</b>
+</p>
 
 <p align="center">
-Made with ❤️ by <b>Anup Kumar</b>
+Made with ❤️ by Anup Kumar
 </p>
-```
